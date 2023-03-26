@@ -1,11 +1,10 @@
 {
   "scriptFile" : "../azure-spring-art-1.0-SNAPSHOT.jar",
-  "entryPoint" : "com.example.hello.HelloHandler.execute",
+  "entryPoint" : "com.example.hello2.HelloHandler.execute",
   "bindings" : [ {
     "type" : "httpTrigger",
     "direction" : "in",
     "name" : "request",
-    "route" : "service/hello",
     "methods" : [ "GET", "POST" ],
     "authLevel" : "ANONYMOUS"
   }, {

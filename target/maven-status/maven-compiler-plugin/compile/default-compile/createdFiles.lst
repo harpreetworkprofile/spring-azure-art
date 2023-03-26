@@ -2,7 +2,9 @@ com/example/model/User.class
 com/example/hi/Hi.class
 com/example/hello/Hello.class
 com/example/DemoApplication.class
+com/example/hello2/HelloFunction.class
 com/example/hello/HelloHandler.class
 com/example/model/Greeting.class
 com/example/hi/HiHandler.class
 com/example/hello/Hey.class
+com/example/hello2/HelloHandler.class

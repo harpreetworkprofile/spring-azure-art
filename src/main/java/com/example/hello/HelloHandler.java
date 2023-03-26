@@ -20,10 +20,10 @@ public class HelloHandler {
     private Hello hey;
 
 
-    @FunctionName("hello")
+    @FunctionName("helloj")
     public HttpResponseMessage execute(
             @HttpTrigger(name = "request", methods = {HttpMethod.GET, HttpMethod.POST}, authLevel = AuthorizationLevel.ANONYMOUS
-            ,route = "service/hello"
+            ,route = "service/helloj"
             ) HttpRequestMessage<Optional<User>> request,
 
             ExecutionContext context) {

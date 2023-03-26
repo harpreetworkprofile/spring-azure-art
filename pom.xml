@@ -13,7 +13,7 @@
 <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.0.9.RELEASE</version>
+    <version>2.3.4.RELEASE</version>
     <relativePath/> <!-- lookup parent from repository -->
 </parent>
 
@@ -26,7 +26,7 @@
 
     <azure.functions.maven.plugin.version>1.22.0</azure.functions.maven.plugin.version>
     <azure.functions.java.library.version>3.0.0</azure.functions.java.library.version>
-    <spring.cloud.function.dependencies>4.0.0</spring.cloud.function.dependencies>
+    <spring.cloud.function.dependencies>3.0.10.RELEASE</spring.cloud.function.dependencies>
 
     <!-- customize those five properties. The functionAppName should be unique across Azure -->
     <functionResourceGroup>my-spring-function-resource-group</functionResourceGroup>
@@ -142,7 +142,7 @@
                     <!-- Run Azure Function from package file by default -->
                     <property>
                         <name>FUNCTIONS_EXTENSION_VERSION</name>
-                        <value>~4</value>
+                        <value>~3</value>
                     </property>
                 </appSettings>
             </configuration>
